@@ -32,11 +32,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
-
+/* Pricing Section */
 .pricing {
     padding: 50px 20px;
 }
-
+/* ChangeTime Section */
 .changeTime {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -80,7 +80,7 @@ body {
     color: var(--clr-white);
     
 }
-
+/* Cards Section */
 .cards {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -93,7 +93,7 @@ body {
     gap: 15px;
     margin-top: 20px;
 }
-
+/* Card Section */
 .card {
     display: -ms-grid;
     display: grid;
@@ -122,10 +122,6 @@ body {
     border: 2px solid var(--clr-violet ,#4927ec) ;
     -webkit-transition: .1s;
     transition: .1s;
-}
-
-.card--1:hover , .card--3:hover{
-    max-width: 265px;
 }
 
 .card--2 {
@@ -165,7 +161,7 @@ body {
     margin: 0;
     font-size: 1.25rem;
 }
-
+/* CardPrice Section */
 .cardPrice {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
@@ -197,7 +193,7 @@ body {
     color: #aeb1b2;
     color: var(--clr-gray-time , #aeb1b2);
 }
-
+/* CardList Section */
 .cardList {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
@@ -212,7 +208,7 @@ body {
     margin-bottom: 10px;
     list-style: none;
 }
-
+/* Card__signUp Section */
 .card__signUp {
     -ms-grid-row: 7;
     -ms-grid-column: 1;
@@ -244,7 +240,7 @@ body {
     background-color: #4927ec;
     background-color: var(--clr-violet ,#4927ec) ;
 }
-
+/* Media Screen Section */
 @media screen and (min-width:768px) {
     .cards {
         display: -webkit-box;
